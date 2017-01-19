@@ -22,9 +22,9 @@ const DropdownTrigger = createClass({
     };
 
     return (
-      <a {...props} href="#dropdown-trigger">
+      <div {...props} href="#dropdown-trigger">
         {children}
-      </a>
+      </div>
     );
   }
 });
